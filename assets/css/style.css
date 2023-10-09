@@ -8,7 +8,7 @@
     box-sizing: border-box;
     
     /* #### Outline - for troubleshooting #### */
-    outline: 1px solid limegreen !important;
+    /* outline: 1px solid limegreen !important; */
     /* background: rgba(0 100 0 / .1); */
 }
 
@@ -23,22 +23,26 @@ body {
 /* ######## Header ######## */
 
 header {
-    /* position: fixed; */
-    
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+    padding: 0 1rem;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
-header a {
-    text-decoration: none;
-    /* Change this property? */
-    color: inherit;
+nav {
+    position: absolute;
+    /* text-align: left; */
+    top: 100%;
 }
 
 
 /* ######## Body ######## */
-
 main {
     flex: 1 0 auto;
-    /* flex-direction: column; */
 }
 
 
