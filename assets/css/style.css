@@ -6,8 +6,33 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
     /* #### Outline - for troubleshooting #### */
     outline: 1px solid limegreen !important;
     /* background: rgba(0 100 0 / .1); */
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ######## Header ######## */
+
+
+
+/* ######## Body ######## */
+
+main {
+    flex: 1 0 auto;
+    /* flex-direction: column; */
+}
+
+
+
+/* ######## footer ######## */
+
+
+
+/* ######## Media quiries ######## */
