@@ -16,10 +16,22 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
 /* ######## Header ######## */
 
+header {
+    /* position: fixed; */
+    
+}
+
+header a {
+    text-decoration: none;
+    /* Change this property? */
+    color: inherit;
+}
 
 
 /* ######## Body ######## */
