@@ -62,8 +62,13 @@ nav li {
     color: azure;
 }
 
+/* Needs more work */
 nav a:hover {
     color: #3a3a3a;
+}
+
+nav a:active {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 #nav-menu {
@@ -107,3 +112,29 @@ footer {
 }
 
 /* ######## Media quiries ######## */
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu li {
+        padding-left: 1rem;
+    }
+
+    /* Needs more work */
+    #menu li:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    .nav-toggle-icon {
+        display: none;
+    }
+}
