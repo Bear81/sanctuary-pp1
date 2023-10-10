@@ -88,6 +88,22 @@ main {
 
 /* ######## footer ######## */
 
+footer {
+    background-color: aquamarine;
+    padding: 2rem 0;
+    
+}
 
+#social-networks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 200%;
+    color: #3a3a3a;
+}
 
 /* ######## Media quiries ######## */
