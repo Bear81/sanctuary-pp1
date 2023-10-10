@@ -74,6 +74,10 @@ nav a:hover {
     display: block;
 }
 
+.nav-toggle-icon {
+    font-size: 1.75rem;
+}
+
 
 /* ######## Body ######## */
 main {
