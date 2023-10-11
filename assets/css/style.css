@@ -94,11 +94,33 @@ main {
     flex: 1 0 auto;
 }
 
+#book-now {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.book-button {
+    font-size: 1.5rem;
+    background-color: #2a5360;
+    padding: 5px;
+    border-radius: 15px;
+    color: #eadbd4;
+    border: none;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+
 #hero-img {
     height: 600px;
     width: 100%;
     background: url("../images/blackrock-diving-tower-sunset.webp") no-repeat center center/cover;
 
+}
+
+.class-cards {
+    display: flex;
+    
 }
 
 /* ######## footer ######## */
