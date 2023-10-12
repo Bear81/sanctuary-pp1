@@ -3,7 +3,9 @@
 
 /* global styles */
 
-* {
+*,
+*:before,
+*:after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -86,6 +88,9 @@ nav a:active {
 /* ######## Body ######## */
 main {
     flex: 1 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 .book-button {
@@ -123,6 +128,23 @@ main {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
+}
+
+/* ######## Book Now Page ######## */
+
+
+#book-now {
+    background-image: url(../images/shoreline-love-morning.webp);
+    background-size: cover;
+    flex-grow: 1;
+}
+
+#book-now-form {
+    padding: 3em 4em;
+}
+
+.input-field {
+    width: 100%;
 }
 
 /* ######## footer ######## */
