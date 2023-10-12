@@ -137,20 +137,33 @@ main {
     background-image: url(../images/shoreline-love-morning.webp);
     background-size: cover;
     flex-grow: 1;
+    position: relative;
 }
 
 #book-now-form {
-    padding: 3em 4em;
+    padding: 2rem 2rem;
+    margin: 1rem;
+    background-color: rgba(42, 83, 96, .5);
+    color: #eadbd4;
+    position: relative;
+    margin-top: 100px;
+    
 }
 
 .input-field {
     width: 100%;
+    font-size: 1.5rem;
+    margin-bottom: 1em;
+}
+
+label {
+    font-size: 1.5rem;
 }
 
 /* ######## footer ######## */
 
 footer {
-    background-color: aquamarine;
+    background-color: #04757b;
     padding: 2rem 0;
 }
 
