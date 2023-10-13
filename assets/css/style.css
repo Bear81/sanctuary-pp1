@@ -36,7 +36,7 @@ h6 {
 
 header {
     background-color: #2a5360;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -53,6 +53,7 @@ header a {
 
 #menu {
     font-size: 120%;
+    line-height: 200%;
     letter-spacing: 2px;
     list-style-type: none;
     text-transform: uppercase;
@@ -68,17 +69,12 @@ nav {
     left: 0;
 }
 
-nav li {
-    color: azure;
-}
-
-/* Needs more work */
 nav a:hover {
-    color: #3a3a3a;
+    color: #fff;
 }
 
 nav a:active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #ffffff;
 }
 
 #nav-menu {
@@ -97,7 +93,7 @@ nav a:active {
 /* ######## Body ######## */
 main {
     flex: 1 0 auto;
-    margin-top: 40px;
+    margin-top: 75.5px;
     display: flex;
     flex-direction: column;
 }
@@ -106,17 +102,6 @@ main {
     background-color: transparent;
     width: 85%;
     padding: .5rem;
-}
-
-.book-button {
-    font-size: 1.5rem;
-    background-color: #2a5360;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 15px;
-    color: #eadbd4;
-    border: none;
-    box-shadow: 0 4px 2px #3a3a3a;
 }
 
 #hero-img {
@@ -130,7 +115,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 3rem;
+    padding-top: 5rem;
 }
 
 #class-cards h2 {
@@ -155,9 +140,9 @@ main {
 
 /* ######## Book Now Page ######## */
 
-
 #book-now {
     background-image: url(../images/shoreline-love-morning.webp);
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 1.0) 80%, transparent 100%);
     background-size: cover;
     flex-grow: 1;
     position: relative;
@@ -180,9 +165,20 @@ main {
     border-radius: 5px;
 }
 
-label {
+.radio-buttons {
     font-size: 1.5rem;
     margin-bottom: .5rem;
+}
+
+.book-button {
+    font-size: 1.5rem;
+    background-color: #2a5360;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    color: #eadbd4;
+    border: none;
+    box-shadow: 0 4px 2px #3a3a3a;
 }
 
 /* ######## footer ######## */
