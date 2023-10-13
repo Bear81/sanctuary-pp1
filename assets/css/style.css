@@ -92,12 +92,17 @@ main {
     margin-top: 75.5px;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 #intro-text {
     background-color: transparent;
     width: 70%;
-    padding: .5rem;
+    padding-left: .5rem;
+    position: absolute;
+    left 5%;
+    top: 400px;
+    font-size: 150%;
 }
 
 #hero-img {
@@ -111,7 +116,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-top: 5rem;
+    padding-top: 7rem;
 }
 
 #class-cards h2 {
@@ -163,7 +168,7 @@ main {
     font-size: 1.5rem;
     margin-bottom: 1em;
     border-radius: 5px;
-    background-color: transparent;
+    background-color: #eadbd4;
     border: 2px solid #fff;
 }
 
@@ -222,6 +227,9 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    body {
+        font-weight: 400;
+    }
     nav {
         display: block;
         position: relative;
@@ -252,6 +260,7 @@ footer {
     #book-now-form {
         max-width: 50%;
         left: 25%;
+        font-size: 150%;
     }
 
     .radio-buttons {
@@ -264,7 +273,11 @@ footer {
     
     .book-now-button:hover {
         background-color: #fafafa;
-        color: #4b321b;
+        color: hsl(17, 85%, 62%);
+    }
+
+    #social-networks {
+        font-size: 150%;
     }
 
 }
