@@ -24,7 +24,7 @@
         <a href="index.html">
             <h1 class="logo">Sanctuary Yoga</h1>
         </a>
-        <label for="nav-menu" class="nav-toggle-icon">
+        <label for="nav-menu" class="nav-toggle-icon" aria-label="Toggle Navigation Menu">
             <i class="fa-solid fa-bars"></i>
         </label>
         <input type="checkbox" id="nav-menu" name="nav-menu" />
@@ -37,7 +37,7 @@
                     <a href="#class-cards">Classes</a>
                 </li>
                 <li>
-                    <a href="book-now.html">Book Now</a>
+                    <a href="#book-now">Book Now</a>
                 </li>
             </ul>
         </nav>
@@ -50,7 +50,7 @@
             <p>Rise, Reset or Relax <br> Blackrock Beach, Galway</p>
         </section>
         <section id="class-cards">
-            <div class="card" id="c-morning">
+            <div class="card" id="c-morning" aria-label="Morning Yoga Class">
                 <img class="class-img" id="cc-morning-img" src="assets/images/beach-yoga-square.webp"
                     alt="Women in yoga pose on a beach" style="width: 50%" />
                 <h2>Morning Class</h2>
@@ -58,7 +58,7 @@
                 <p> Start your day with a revitalizing morning yoga class. Awaken your body and mind through gentle stretches and calming
                 breathwork. It's the perfect way to set a positive tone for your day and boost your energy levels. </p>
             </div>
-            <div class="card" id="c-afternoon">
+            <div class="card" id="c-afternoon" aria-label="Afternoon Yoga Class">
                 <img class="class-img" id="cc-afternoon-img" src="assets/images/beach-yoga-square.webp"
                     alt="Women in yoga pose on a beach" style="width: 50%" />
                 <h2>Afternoon Class</h2>
@@ -66,7 +66,7 @@
                 <p> Join our noon yoga class for a midday escape. This session combines rejuvenating postures and mindful relaxation
                 techniques. Recharge, relieve stress, and return to your day with increased focus and vitality. </p>
             </div>
-            <div class="card" id="c-evening">
+            <div class="card" id="c-evening" aria-label="Evening Yoga Class">
                 <img class="class-img" id="cc-Evening-img" src="assets/images/beach-yoga-square.webp"
                     alt="Women in yoga pose on a beach" style="width: 50%" />
                 <h2>Evening Class</h2>
@@ -102,15 +102,15 @@
                 <div class="radio-buttons">
                     <div>
                         <label for="sunrise">Sunrise</label>
-                        <input type="radio" name="class-time" id="sunrise" value="sunrise" required checked>
+                        <input type="radio" name="class-time" id="sunrise" value="sunrise" required checked aria-label="Morning Class">
                     </div>
                     <div>
                         <label for="noon">Noon</label>
-                        <input type="radio" name="class-time" id="noon" value="noon" required>
+                        <input type="radio" name="class-time" id="noon" value="noon" required aria-label="Afternoon Class">
                     </div>
                     <div>
                         <label for="sunset">Sunset</label>
-                        <input type="radio" name="class-time" id="sunset" value="sunset" required>
+                        <input type="radio" name="class-time" id="sunset" value="sunset" required aria-label="Evening Class">
                     </div>
                     <button type="submit" class="book-now-button">Confirm</button>
                 </div>
