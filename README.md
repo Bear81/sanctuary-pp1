@@ -8,7 +8,7 @@ Intended Target Audience:
 
 This website caters to individuals of all ages and backgrounds who seek physical and mental rejuvenation. Whether you're a seasoned yogi or a complete beginner, Sanctuary Cove Yoga welcomes you. Our target audience includes local residents and tourists in Galway who are interested in daily yoga classes on the Wild Atlantic Way, as well as those looking for yoga retreat opportunities. Furthermore, this platform appeals to anyone with an appreciation for the healing powers of nature, as our outdoor sessions connect practitioners with the rugged beauty of the Irish coast. By offering a comprehensive range of class options and emphasizing accessibility, our website aims to introduce yoga to a diverse audience and foster a sense of serenity, health, and vitality in each visitor.
 
-![Responsice Mockup](documentation-images/Am-I-Responsive- (1).webp)
+![Responsice Mockup](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/Am-I-Responsive-%20(1).webp)
 
 ## Features 
 
