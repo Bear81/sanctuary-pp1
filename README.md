@@ -12,28 +12,28 @@ This website caters to individuals of all ages and backgrounds who seek physical
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+All existing and future feature are listed in the below sections, with details of there design and benefits to the user.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - A responsive navigations allows users to jump to all 3 sections of the website. The navigation collapes to a menu icon on mobile screens. 
+  - On desktop and laptop devices, menu items color change and are underlined on hover.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar]()
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - A visually stunning image provides the user with a sence of calm. 
+  - The landing page is uncluttered with no distracting elements.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page]()
 
-- __Club Ethos Section__
+- __Intro Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - A short introduction to the service lets users know preciesly the purpose of the site.
+  - Highlights our stunning location and uses emotive language to entice users to further interact with the site. 
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
