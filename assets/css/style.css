@@ -56,6 +56,7 @@ header a {
 }
 
 /* Nav bar styles */
+/* Code was inspired by Love Running project  */
 nav {
     display: none;
     position: absolute;
