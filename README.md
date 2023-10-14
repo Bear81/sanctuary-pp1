@@ -69,8 +69,8 @@ All existing and future features are listed in the below sections, with details 
 ### Accessibility
 
 - [Wave Report](https://wave.webaim.org/report#/https%3A%2F%2Fbear81.github.io%2Fsanctuary-pp1%2Findex.html) - No Errors or Contrast Errors detected.
-- [Lighthouse Mobile](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/lighthouse_mobile.png)
-- [Lighthouse Desktop](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/lighthouse_desktop.png)
+- ![Lighthouse Mobile](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/lighthouse_mobile.png)
+- ![Lighthouse Desktop](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/lighthouse_desktop.png)
 
 ### Manual Testing
 
