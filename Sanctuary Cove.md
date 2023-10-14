@@ -12,27 +12,27 @@ This website caters to individuals of all ages and backgrounds who seek physical
 
 ## Features
 
-All existing and future feature are listed in the below sections, with details of there design and benefits to the user.
+All existing and future features are listed in the below sections, with details of their design and benefits to the user.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - A responsive navigations allows users to jump to all 3 sections of the website. The navigation collapes to a menu icon on mobile screens.
+  - A responsive navigation allows users to jump to all 3 sections of the website. The navigation collapses to a menu icon on mobile screens.
   - On desktop and laptop devices, menu items color change and are underlined on hover.
 
 ![Nav Bar](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/nav-bar-ss.png)
 
 - __The landing page image__
 
-  - A visually stunning image provides the user with a sence of calm.
+  - A visually stunning image provides the user with a sense of calm.
   - The landing page is uncluttered with no distracting elements.
 
 ![Landing Page](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/landing_ss.png)
 
 - __Intro Section__
 
-  - A short introduction to the service lets users know preciesly the purpose of the site.
+  - A short introduction to the service lets users know precisely the purpose of the site.
   - Highlights our stunning location and uses emotive language to entice users to further interact with the site.
 
 ![Intro Section](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/landing_ss.png)
@@ -53,7 +53,7 @@ All existing and future feature are listed in the below sections, with details o
 - __The Footer__
 
   - The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user.
-  - Additionally the footer contains links for email and telephone using appropriate HTML tags.
+  - Additionally, the footer contains links for email and telephone using appropriate HTML tags.
 
 ![Footer](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/footer_ss.png)
 
@@ -68,7 +68,7 @@ All existing and future feature are listed in the below sections, with details o
 
 ### Accessibility
 
-- [Wave Report](https://wave.webaim.org/report#/https%3A%2F%2Fbear81.github.io%2Fsanctuary-pp1%2Findex.html) - No Errors or Contrast Errors dected.
+- [Wave Report](https://wave.webaim.org/report#/https%3A%2F%2Fbear81.github.io%2Fsanctuary-pp1%2Findex.html) - No Errors or Contrast Errors detected.
 - [Lighthouse Mobile](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/lighthouse_mobile.png)
 - [Lighthouse Desktop](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/lighthouse_desktop.png)
 
@@ -106,7 +106,7 @@ The live link can be found here - <https://bear81.github.io/sanctuary-pp1/index.
 
 ### Nav & Footer
 
-- [Love Running Project](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) - The basic structure of the Nav elements from Love Running were used this project. Specifically the css based solution to create a clickable menu icon. Additionally the Footer Social Media section was used in this project.
+- [Love Running Project](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) - The basic structure of the Nav elements from Love Running was used in this project. Specifically the css based solution to create a clickable menu icon. Additionally, the Footer Social Media section was used in this project.
 
 ### Flexbox
 
