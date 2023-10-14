@@ -8,82 +8,79 @@ Intended Target Audience:
 
 This website caters to individuals of all ages and backgrounds who seek physical and mental rejuvenation. Whether you're a seasoned yogi or a complete beginner, Sanctuary Cove Yoga welcomes you. Our target audience includes local residents and tourists in Galway who are interested in daily yoga classes on the Wild Atlantic Way, as well as those looking for yoga retreat opportunities. Furthermore, this platform appeals to anyone with an appreciation for the healing powers of nature, as our outdoor sessions connect practitioners with the rugged beauty of the Irish coast. By offering a comprehensive range of class options and emphasizing accessibility, our website aims to introduce yoga to a diverse audience and foster a sense of serenity, health, and vitality in each visitor.
 
-![Responsice Mockup](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/Am-I-Responsive-%20(1).webp)
+![Responsive Mockup](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/Am-I-Responsive-%20(1).webp)
 
-## Features 
+## Features
 
-All existing and future feature are listed in the below sections, with details of there design and benefits to the user.
+All existing and future features are listed in the below sections, with details of their design and benefits to the user.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - A responsive navigations allows users to jump to all 3 sections of the website. The navigation collapes to a menu icon on mobile screens. 
+  - A responsive navigation allows users to jump to all 3 sections of the website. The navigation collapses to a menu icon on mobile screens.
   - On desktop and laptop devices, menu items color change and are underlined on hover.
 
-![Nav Bar]()
+![Nav Bar](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/nav-bar-ss.png)
 
 - __The landing page image__
 
-  - A visually stunning image provides the user with a sence of calm. 
+  - A visually stunning image provides the user with a sense of calm.
   - The landing page is uncluttered with no distracting elements.
 
-![Landing Page]()
+![Landing Page](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/landing_ss.png)
 
 - __Intro Section__
 
-  - A short introduction to the service lets users know preciesly the purpose of the site.
-  - Highlights our stunning location and uses emotive language to entice users to further interact with the site. 
+  - A short introduction to the service lets users know precisely the purpose of the site.
+  - Highlights our stunning location and uses emotive language to entice users to further interact with the site.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Intro Section](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/landing_ss.png)
 
-- __Meetup Times section__
+- __Class Cards__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - Each card provides the user with the type, time and description of each class on offer.
+  - Each card card description finishes with the desired outcome of the class.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Class Cards](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/class_cards_ss.png)
 
-- __The Footer__ 
+- __Booking Form__
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The booking form allows users to book their desired class on any specific date. All form fields are validated and required.  
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Booking Form](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/booking_form_ss.png)
 
-- __Gallery__
+- __The Footer__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user.
+  - Additionally, the footer contains links for email and telephone using appropriate HTML tags.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Footer](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/footer_ss.png)
 
 ### Features Left to Implement
 
-- Another feature idea
+- On Mobile - Collapse Navigation menu after user clicks an option or clicks off menu.
+- All Devices - Add a review capture and display page.
+- All Devices - Add a frequency option so customers can book regular or block sessions.
+- Add payment process service for online payments.
 
-## Testing 
+## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+### Accessibility
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- [Wave Report](https://wave.webaim.org/report#/https%3A%2F%2Fbear81.github.io%2Fsanctuary-pp1%2Findex.html) - No Errors or Contrast Errors detected.
+- [Lighthouse Mobile](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/lighthouse_mobile.png)
+- [Lighthouse Desktop](https://github.com/Bear81/sanctuary-pp1/blob/main/documentation-images/lighthouse_desktop.png)
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+### Manual Testing
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+- Responsiveness was tested on Windows and Mac laptops, Windows Surface Pro 8, iPad mini, Samsung S20FE, iPhone 14. No issues were detected.
 
+Additional Responsiveness testing was completed using Dev Tools in FireFox and Chrome.
 
-### Validator Testing 
+Browser testing was done in Edge, Chrome, FireFox as well as on Chrome Mobile Browser and Safari (Desktop and Mobile)
+
+### Validator Testing
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
@@ -92,53 +89,40 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+There are no identified unfixed bugs on this website.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
   - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - <https://bear81.github.io/sanctuary-pp1/index.html>
 
+## Credits
 
-## Credits 
+### Nav & Footer
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+- [Love Running Project](https://github.com/Code-Institute-Solutions/Love-Running-Solutions) - The basic structure of the Nav elements from Love Running was used in this project. Specifically the css based solution to create a clickable menu icon. Additionally, the Footer Social Media section was used in this project.
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+### Flexbox
 
-### Content 
+- Additional tutorials used in this project (No code)
+  - [Flex Cheat Sheet](https://flexbox.malven.co/)
+  - [Learn flexbox the easy way](https://www.youtube.com/watch?v=u044iM9xsWU&list=PL3_VIArpa1JQtpIJEOjcN0-XTgJ006ZPi&index=2)
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+### HTML & CSS
+
+- [w3 html](https://www.w3schools.com/html/)
+- [MDM html](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [w3 css](https://www.w3schools.com/w3css/defaulT.asp)
+- [MDM css](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+- Main image (hero) was taken from [iStock](https://www.istockphoto.com/photo/salthill-galway-ireland-gm182398527-11531311) (Paid)
+- All other images taken from [Pexels](https://www.pexels.com/collections/yoga-moody-coastal-theme-fxnk2vk/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
